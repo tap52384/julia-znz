@@ -1,0 +1,30 @@
+{
+  "name": "julia-znz",
+  "version": "1.0.0",
+  "description": "Julia's Landing Page for Her Job",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^3.3.5"
+  },
+  "devDependencies": {
+    "bootstrap": "^3.3.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tap52384/julia-znz.git"
+  },
+  "keywords": [
+    "znz",
+    "instant",
+    "rewards"
+  ],
+  "author": "z. patrick lewis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tap52384/julia-znz/issues"
+  },
+  "homepage": "https://github.com/tap52384/julia-znz#readme"
+}

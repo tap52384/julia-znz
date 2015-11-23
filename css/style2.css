@@ -1,0 +1,251 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 50px;
+  padding-bottom:0px;
+}
+
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.navbar-brand {
+  padding:10px;
+}
+
+.navbar-brand img {
+  width:50%;
+}
+
+.navbar-default {
+  background-color: #dce4f3;
+  border-color: #afc3dd;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #0a488e;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color:#fff;
+}
+
+
+/* CUSTOMIZE THE SHOWCASE
+-------------------------------------------------- */
+
+.showcase, .orientation-showcase {
+  height: 600px;
+  padding: 30px 15px;
+  background-color: #2c5f9f;
+  color: #fff;
+}
+
+.orientation-showcase {
+
+  height: 350px;
+
+  }
+
+.showcase .container {
+  background-color: #2c5f9f;
+  margin-bottom:30px;
+}
+
+#mainForm div.row, #mainForm div.single-input {
+
+margin-bottom:7px;
+
+}
+
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Pad the edges of the mobile views a bit */
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.marketing h3 img {
+  margin-right: 5px;
+}
+
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.great-companies {
+  background-color: #dce4f3;
+}
+
+.section {
+  padding:15px 0px;
+}
+
+.section h3 {
+  text-align:center;
+  color: #0a488e;
+}
+
+.benefits {
+  padding-bottom:0px;
+}
+
+.benefits ul li {
+
+  margin-bottom:10px;
+}
+
+
+/* Footer
+------------------------- */
+
+.footer-container {
+  background-color: #2c5f9f;
+color: #fff;
+font-size: 14px;
+margin-bottom: 0px;
+padding-top:35px;
+}
+
+.footer-container a, .footer-container a:visited {
+  color: #fff;
+}
+.footer-container a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.footer-container .contacts-table td {
+  line-height:30px;
+}
+
+.social-media-footer-container a img {
+  width:40px;
+  height:40px;
+}
+
+td.icon span {
+  margin-right:15px;
+}
+
+#footer-logo-well {
+  background-color:#fff;
+}
+
+#footer-logo-well img {
+  margin: 0 auto;
+}
+
+.footer-logo-container {
+  margin-bottom:15px;
+}
+
+.float-right {
+  float:right;
+}
+
+.float-left {
+  float:left;
+}
+
+.align-right {
+  text-align:right;
+}
+
+div.footer-container > div > div > div:nth-child(1) > table > tbody > tr {
+line-height: 30px;
+}
+
+
+
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+
+  body {
+  padding-top: 61px;
+}
+
+.showcase {
+
+  height:360px;
+}
+
+.section {
+  padding:30px 15px;
+}
+
+.marketing .col-lg-4 {
+  text-align: left;
+}
+
+  /* Remove the edge padding needed for mobile */
+  .marketing {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .navbar-brand {
+  padding:10px;
+}
+
+.navbar-brand img {
+  width:65%;
+}
+
+.navbar-nav>li>a {
+  padding:0 10px;
+  line-height:60px;
+}
+
+
+
+
+.benefits {
+  padding-bottom:0px;
+}
+
+.benefits img {
+  vertical-align:bottom;
+  border: 0;
+}
+
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}

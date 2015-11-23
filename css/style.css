@@ -1,0 +1,175 @@
+body {
+
+	padding-top: 82px;
+  padding-bottom:0px;
+}
+
+
+.navbar-inverse
+{
+
+	background-color:#dce4f3;
+	border-color: #afc3dd;
+
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
+color: #0a488e;
+}
+
+.navbar-inverse ul.nav li a {
+text-shadow: none;
+padding: 30px 15px 21px;
+-webkit-transition: all .2s ease;
+transition: all .2s ease;
+font-size:14px;
+font-weight:normal;
+line-height:14px;
+}
+
+.navbar-inverse ul.nav li a img {
+
+padding:0;
+width:32px;
+height:32px;
+
+}
+
+.navbar-inverse ul.nav li a.social-icon {
+
+	padding:23px 0px
+}
+
+
+
+.navbar-brand img
+{
+
+	width:218px;
+	height:52px;
+
+}
+
+#main-jumbotron {
+	background-color:#2c5f9f;
+	color: #fff;
+}
+
+#header-links {
+
+	height:82px;
+
+}
+
+.btn-orange {
+color: #fff;
+background-color: #f98f17;
+border-color: #ccc;
+border:0;
+}
+
+#mainForm div.row, #mainForm div.single-input {
+
+margin-bottom:7px;
+
+}
+
+#great-points {
+
+margin-bottom:30px;
+
+}
+
+
+#great-points img {
+
+	margin-right:7px;
+}
+
+#great-companies {
+
+	background-color:#dce4f3;
+	font-size:14px;
+
+}
+
+#great-companies img {
+
+	margin: 5px auto;
+}
+
+.great-companies-title
+{
+
+	text-align: center;
+	color: #0a488e;
+}
+
+.footer-container {
+	background-color:#2c5f9f;
+	color: #fff;
+	font-size:14px;
+	margin-bottom:0px;
+}
+
+.footer-container a, .footer-container a:visited {
+	color:#fff;
+}
+
+.footer-container a:hover {
+	text-decoration:underline;
+}
+
+
+#about-us-container p {
+
+	margin:20px;
+}
+
+#about-us-container ul li {
+
+	margin-bottom:10px;
+}
+
+.contact-table {
+
+
+
+}
+
+td.icon span {
+	margin-right:15px;
+}
+
+#footer-logo-well {
+	background-color:#fff;
+}
+
+#footer-logo-well img {
+	margin: 0 auto;
+}
+
+.footer-logo-container {
+	margin-bottom:15px;
+}
+
+.float-right {
+	float:right;
+}
+
+.float-left {
+	float:left;
+}
+
+.align-right {
+	text-align:right;
+}
+
+.social-media-footer-container a img {
+	width:40px;
+	height:40px;
+}
+
+footer a {
+	text-decoration:underline;
+}
