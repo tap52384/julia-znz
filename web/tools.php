@@ -62,6 +62,6 @@ include('header.php');
 
       </div> <!-- benefits -->
 
-<?php
-include('footer.php');
-?>
+      <?php
+      include('footer.php');
+      ?>

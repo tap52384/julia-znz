@@ -36,7 +36,7 @@ body {
 }
 
 .navbar-brand img {
-  width:50%;
+  /* width:50%; */
 }
 
 .navbar-default {
@@ -148,8 +148,8 @@ padding-top:35px;
 }
 
 .social-media-footer-container a img {
-  width:40px;
-  height:40px;
+  width:30px;
+  height:30px;
 }
 
 td.icon span {
@@ -222,7 +222,10 @@ line-height: 30px;
 }
 
 .navbar-brand img {
-  width:65%;
+  /* width:65%; */
+  display: inline-block;
+  max-height: 45px;
+  margin-right: 5px;
 }
 
 .navbar-nav>li>a {
